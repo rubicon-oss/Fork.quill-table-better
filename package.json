@@ -1,7 +1,8 @@
 {
-  "name": "quill-table-better",
-  "version": "1.2.3",
-  "description": "A module that enhances the table functionality of Quill",
+  "name": "@actanova/quill-table-better",
+  "version": "1.2.3-patch.1",
+  "description": "A module that enhances the table functionality of Quill (Acta Nova fork)",
+  "private": true,
   "main": "dist/quill-table-better.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
@@ -18,7 +19,10 @@
     "quill.js",
     "quill-table"
   ],
-  "author": "attoae",
+  "author": "rubicon IT GmbH <www.rubicon.eu>",
+  "contributors": [
+    "attoae (original quill-table-better author)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/attoae/quill-table-better/issues"
@@ -41,7 +45,8 @@
     "typescript": "^4.6.4",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.2"
+    "webpack-dev-server": "^4.15.2",
+    "webpack-merge": "^5.8.0"
   },
   "engines": {
     "node": ">= 14.15.0"
@@ -50,8 +55,7 @@
     "@babel/runtime": "^7.17.9",
     "@jaames/iro": "^5.5.2",
     "@types/lodash.merge": "^4.6.7",
-    "lodash.merge": "^4.6.2",
-    "webpack-merge": "^5.8.0"
+    "lodash.merge": "^4.6.2"
   },
   "browserslist": [
     "last 1 version",
